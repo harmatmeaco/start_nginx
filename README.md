@@ -6,7 +6,7 @@ Nginxを起動し、VSCodeのLiveServerで立てたサーバにリクエスト�
 
 # 事前準備
 - 1. Nginxのダウンロード・解凍 (インストールは必要ありません。)
-- 2. 社内DNSにホスト名を登録
+- 2. DNSにホスト名を登録
 
 1. ダウンロード・解凍  
 http://nginx.org/en/download.html  
