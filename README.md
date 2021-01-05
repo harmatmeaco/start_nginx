@@ -78,11 +78,9 @@ http://localhost
 ```
 http://{ホスト名}
 ```
-例えば、http://takashima-yu.internal.works-hi.com/ にアクセスすると
-![resolve_dns](13.dns_resolved.png)
-このように、Nginxのページが表示されます。  
+例えば、http://takashima-yu.hogehoge.com/ にアクセスするとNginxのページが表示されます。  
 
-## 3. Nginxがリバースプロキシとなるように設定を変更する
+## 3. NginxがWebサーバとなるように設定を変更する
 解凍したnginxのファイルがあるフォルダの中の、 `\conf\nginx.conf` を何らかのエディタで開きます。
 ![nginx_conf](12.nginx_conf.png)
 
@@ -101,6 +99,10 @@ http://{ホスト名}
 ```
 こうすることで、Nginxに来たHTTPリクエストを、 `localhost:5500` へ 受け流すことが可能です。  
 なので、
+```
+nginx -s reload
+```
+を実行して設定を読み込み直した上で
 ```
 http://{ホスト名}/index.html
 ```
