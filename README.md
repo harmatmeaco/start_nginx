@@ -17,10 +17,8 @@ http://nginx.org/en/download.html
 ![unzip](2.unzip_folder.png)  
 ここでは `D:\nginx` に解凍しました。  
 
-2. 社内DNSにホスト名を登録します。  
+2. DNSにホスト名を登録します。  
 ※既に登録済みの場合、新たに登録する必要はありません。  
-http://ddns.internal.works-hi.com/  
-上記ページの記載に従って、ホスト名を登録します。  
 
 # 本編
 ## 目次
