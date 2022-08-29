@@ -1,5 +1,5 @@
 # 今回の目的
-Nginxを通じてWebサーバを学ぶ。
+川上さんがNginxを通じてWebサーバを学ぶ。
 
 # 今回の目標
 Nginxを起動し、VSCodeのLiveServerで立てたサーバにリクエストを受け流すように設定する。
